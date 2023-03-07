@@ -1,9 +1,15 @@
+import Nav from './components/Nav';
+import Profile from './components/Profile';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Sociyo, app</h1>
-    </div>
+   <>
+   <Nav/>
+   <div className='App-Body'>
+      <Profile/>
+   </div>
+   </>
   );
 }
 

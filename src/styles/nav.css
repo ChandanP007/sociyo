@@ -14,9 +14,10 @@
 
 }
 logo{
-    font-size: 20px;
+    font-size: 30px;
     color: var(--prim);
-    font-weight: 500;
+    font-weight: 1000;
+    font-family: monospace;
 }
 .actions{
     display: flex;

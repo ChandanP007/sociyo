@@ -1,0 +1,9 @@
+body{
+
+}
+.App-Body{
+    border: 1px solid lightgrey;
+    margin: 0px 2px 0px 2px;
+    background: whitesmoke;
+    border-radius: 5px;
+}

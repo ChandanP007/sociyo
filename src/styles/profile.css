@@ -1,16 +1,23 @@
-#Profile-Component{
-    width: 20%;
+:root{
+    --prim : #617143;
+    --primlight : #e3ecd3;
+    --grey : rgb(235, 234, 234);
 }
-.User-Box{
+#Profile-Component{
+    width: 20vw;
+    height: 100vh;
+}
+.User-Box{ 
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
-    border: 1px solid lightgray;
+    border: 1px solid var(--grey);
     border-radius: 12px;
     padding-left: 15px;
-    margin: 20px;
-    box-shadow: 0px 15px 40px -20px lightgrey;
+    margin: 20px 0px 20px 30px;
+    box-shadow: 0px 15px 25px -27px grey;
+    background: white;
 }
 .userImg{
     height: 50px;
@@ -18,4 +25,76 @@
 }
 .handle{
     opacity: 50%;
+}
+.User-Nav{
+    border-radius: 15px;
+    background: white;
+    margin: 20px 0px 20px 30px;
+}
+.links{
+    list-style: none;
+    padding: 0;
+    /* padding-left: 15px; */
+    /* border: 1px solid var(--grey); */
+    border-radius: 12px;
+    max-width: 20vw;
+}
+.links li{
+    border-bottom: 1px solid rgb(245, 242, 242);
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+li.active{
+    background: var(--primlight);
+    border-left: 3px solid var(--prim);
+}
+
+.Invitation-Box{
+    /* border: 1px solid black; */
+    margin: 20px 0px 20px 30px;
+}
+.Component-Title{
+    font-size: 12px;
+    color: var(--prim)
+}
+.Invitation-Box img{
+    height: auto;
+    width: 100%;
+    opacity: 70%;
+    border-radius: 12px;
+}
+.Invitation-Box::after{
+    content: '';
+    color: red;
+    z-index: 1000;
+    display: block;
+    height: 5px;
+    width: 5px;
+
+}
+.Sociyo-Btn{
+    width: 40%;
+    cursor: pointer;
+    border: none;
+    opacity: 90%;
+}
+.Sociyo-Btn:hover{
+    opacity: 100%;
+}
+.Negative{
+    background: var(--grey);
+    color: black;
+    border: var(--grey);
+    width: 40%;
+    margin: auto;
+}
+.invite-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
