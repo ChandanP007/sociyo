@@ -1,9 +1,8 @@
-body{
 
-}
 .App-Body{
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(244, 241, 241);
     margin: 0px 2px 0px 2px;
     background: whitesmoke;
     border-radius: 5px;
+    display: flex;
 }

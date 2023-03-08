@@ -1,0 +1,58 @@
+#Feed-Component{
+    /* border: 1px solid lightgray; */
+    border-radius: 12px;
+    width: 60vw;
+    margin: 20px 30px 20px 35px;
+    display: flex;
+    flex-direction: column;
+}
+.Stories-Container{
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+    display: flex;
+    gap: 35px;
+}
+.story-img{
+    object-fit: cover;
+    border-radius: 12px;
+    width: 170px;
+    height: 200px;
+}
+.user-story{
+    position: relative;
+    opacity: 90%;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.user-story:hover{opacity: 100%;}
+.add-story-btn{
+    text-decoration: none;
+    opacity: 100%;
+    font-size: 25px;
+    color: white;
+    border-radius: 50%;
+    background: crimson;
+    /* border: 2px solid lightpink; */
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    z-index: 1;
+}
+.add-story-btn:hover{opacity: 100%;}
+.add-im{opacity: 80%;}
+.fstory-title{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: rgba(31, 31, 31, 0.7);
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+    transform: translate(-50%,46%);
+    z-index: 5;
+}

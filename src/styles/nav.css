@@ -41,7 +41,9 @@ button{
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid var(--prim);
+    opacity: 80%;
 }
+button:hover{opacity: 100%;}
 h4{
     background: var(--grey);
     padding: 10px;
