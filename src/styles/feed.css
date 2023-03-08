@@ -5,7 +5,11 @@
     margin: 20px 30px 20px 35px;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+#Feed-Component::-webkit-scrollbar{display: none;}
 .Stories-Container{
     margin: 20px;
     flex-wrap: wrap;
@@ -55,4 +59,90 @@
     text-align: center;
     transform: translate(-50%,46%);
     z-index: 5;
+}
+.Post-Box{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    /* align-items: center; */
+    background: white;
+    border-radius: 12px;
+    padding: 13px;
+    /* margin: 20px; */
+    margin: 20px 0px 20px 20px;
+    width: 100%;
+}
+.Post-Box input[type=text]{
+    width: 700px;
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 60%;
+}
+.post-btn{
+    width: 120px;
+}
+#User-Feed{
+    margin: 20px;
+    max-height: 200px;
+}
+
+.feed-box{
+    padding: 10px;
+    background: white;
+    border-radius: 12px;
+    height: auto; width: 100%;
+    margin-top: 25px;
+}
+.pro-img{
+    width: 50px; height: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.name-time{
+    line-height: 4px;
+    font-size: 12px;
+}
+.name-time p{
+    opacity: 60%;
+}
+.user-info{
+    display: flex;
+}
+.pro-area{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.feed-top{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-bottom: 1px solid rgb(232, 231, 231);
+    padding-bottom: 8px;
+}
+.more-opt{
+    font-size: 30px;
+    padding: 0px 20px 0px 0px;
+    margin: -5px 20px;
+    opacity: 50%;
+    cursor: pointer;
+}
+.more-opt:hover{
+    opacity: 100%;
+}
+.feed-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    /* border-top: 1px solid rgb(232, 231, 231); */
+}
+.feed-bottom a{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+}
+.feed-bottom a:hover{
+    opacity: 100%;
 }

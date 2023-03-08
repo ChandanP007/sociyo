@@ -5,7 +5,7 @@
 }
 #Profile-Component{
     width: 20vw;
-    height: 100vh;
+    height: 87vh;
 }
 .User-Box{ 
     display: flex;
@@ -65,7 +65,6 @@ li.active{
 .Invitation-Box img{
     height: auto;
     width: 100%;
-    opacity: 70%;
     border-radius: 12px;
 }
 
