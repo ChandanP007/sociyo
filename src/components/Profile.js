@@ -1,12 +1,21 @@
 import "../styles/profile.css";
+import { useState } from "react";
 
-function Profile() {
+function Profile(props) {
+
+  const [isActive, setIsActive] = useState(false);
+
+  function handleActive(){
+    setIsActive(!isActive);
+    
+  }
+
   return (
     <>
       <div id="Profile-Component">
         <div className="User-Box">
           <h5 className="username">
-            John Wick<br></br>@boogeyman
+          {props.username}<br></br>{props.handle}
           </h5>
           <img
             className="userImg"
@@ -16,17 +25,17 @@ function Profile() {
 
         <div className="User-Nav">
           <ul className="links">
-            <li className="active">
+            <li className="active" onClick={handleActive}>
               <a href="#">🏠 Home</a>
             </li>
-            <li>
-              <a href="#">🧑‍🦰 People</a>
+            <li className="" onClick={handleActive}>
+              <a href="#">🧑‍🦰 Developer's</a>
             </li>
-            <li>
+            <li  className="" onClick={handleActive}>
               <a href="#">🖼️ Photos</a>
             </li>
             <li>
-              <a href="#">📰 News Feed</a>
+              <a href="#">📰 Preserved</a>
             </li>
             <li>
               <a href="#">👤 Profile</a>
@@ -39,7 +48,8 @@ function Profile() {
 
         <div className="Invitation-Box">
           <h3 className="Component-Title">INVITATIONS</h3>
-          <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"></img>
+            <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"></img>
+          
           <div className="invite-actions">
             <button className="Sociyo-Btn" type="submit">
               Accept

@@ -10,7 +10,7 @@ function Nav()
             </div>
             <div className="actions">
                 <input type="text" placeholder="Search"></input>
-                <button type="submit">Create</button>
+                <button type="submit">Search</button>
                 <h4>A</h4>
             </div>
         </div>

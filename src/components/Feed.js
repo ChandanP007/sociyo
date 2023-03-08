@@ -21,6 +21,12 @@ function Feed() {
               className="story-img"
               src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
             ></img>
+            <div className="user-icon">
+                <img
+                className="pro-img"
+                src="https://images.hindustantimes.com/img/2022/07/23/1600x900/john_wick_1658552069948_1658552090422_1658552090422.jfif"
+              ></img>
+            </div>
             <div className="fstory-title">
               <h6>Aman</h6>
             </div>
@@ -30,6 +36,12 @@ function Feed() {
               className="story-img"
               src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
             ></img>
+            <div className="user-icon">
+                <img
+                className="pro-img"
+                src="https://images.hindustantimes.com/img/2022/07/23/1600x900/john_wick_1658552069948_1658552090422_1658552090422.jfif"
+              ></img>
+            </div>
             <div className="fstory-title">
               <h6>Abhishek</h6>
             </div>
@@ -39,6 +51,12 @@ function Feed() {
               className="story-img"
               src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
             ></img>
+            <div className="user-icon">
+                <img
+                className="pro-img"
+                src="https://images.hindustantimes.com/img/2022/07/23/1600x900/john_wick_1658552069948_1658552090422_1658552090422.jfif"
+              ></img>
+            </div>
             <div className="fstory-title">
               <h6>Debojeet</h6>
             </div>
@@ -48,6 +66,12 @@ function Feed() {
               className="story-img"
               src="https://youmatter.world/app/uploads/sites/2/2019/11/travel-world.jpg"
             ></img>
+            <div className="user-icon">
+                <img
+                className="pro-img"
+                src="https://images.hindustantimes.com/img/2022/07/23/1600x900/john_wick_1658552069948_1658552090422_1658552090422.jfif"
+              ></img>
+            </div>
             <div className="fstory-title">
               <h6>Aneesh</h6>
             </div>

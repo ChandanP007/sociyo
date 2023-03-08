@@ -8,7 +8,7 @@ function App() {
    <>
    <Nav/>
    <div className='App-Body'>
-      <Profile/>
+      <Profile username="John Wick" handle="@boogeyman"/>
       <Feed/>
       <Friends/>
    </div>

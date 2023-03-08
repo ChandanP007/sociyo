@@ -7,7 +7,6 @@
 .Component-Title h5{
     font-size: 12px;
     opacity: 70%;
-
 }
 .request-card{
     background: white;
@@ -32,15 +31,15 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 20px;
     width: 100%;
     border-bottom: 1px solid rgb(240, 240, 240);
     background: none;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 0.5s;
 }
 .ufriend:hover{
-    transform: scale(0.9);
+    margin-left: 0px;
 }
 .ufriend img{
     border-radius: 12px;

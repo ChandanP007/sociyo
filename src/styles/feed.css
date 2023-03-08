@@ -23,6 +23,16 @@
     width: 170px;
     height: 200px;
 }
+.user-icon{
+    position: absolute;
+    top: 20%; left: 20%;
+    transform: translate(-50%,-50%);
+}
+.user-icon img{
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+}
 .user-story{
     position: relative;
     opacity: 90%;
@@ -44,9 +54,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-20%);
+    transition: 0.3s;
     z-index: 1;
 }
-.add-story-btn:hover{opacity: 100%;}
+.add-story-btn:hover{ transition: 0.3s; opacity: 100%; border: 1px solid white;}
 .add-im{opacity: 80%;}
 .fstory-title{
     position: absolute;
@@ -114,7 +125,7 @@
     align-items: center;
     gap: 15px;
 }
-.feed-top{
+.feed-top{ 
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
