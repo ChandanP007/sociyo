@@ -44,6 +44,11 @@
     padding: 10px;
     margin: 10px 0px 10px 0px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.links li:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
 }
 .links li a{
     text-decoration: none;
@@ -52,6 +57,9 @@
 li.active{
     background: var(--primlight);
     border-left: 3px solid var(--prim);
+}
+li.active:hover{
+    transform: scale(1);
 }
 
 .Invitation-Box{
